@@ -20,7 +20,7 @@ const App = () => {
 
 
   return aToken ? (
-    <div className='bg-[#F8F9FD]'>
+    <div className='bg-[#F8F9FD] font-medium'>
       <ToastContainer />
       <Navbar />
       <div className='flex items-start '>
