@@ -228,14 +228,15 @@ const cancelAppointment = async (req,res) => {
     }
 }
 
-const razorpayInstance = new razorpay({
-    key_id:'',
-    key_secret:''
-})
+// For kyc it needs business, bank, etc details 
+// const razorpayInstance = new razorpay({
+//     key_id:'',
+//     key_secret:''
+// })
 
-// API to make payment of appointment using razorpay
-const paymentRazorPay = async (req,res) => {
+// // API to make payment of appointment using razorpay
+// const paymentRazorPay = async (req,res) => {
 
-}
+// }
 
 export { registerUser, loginUser, getProfile, updateProfile, bookAppointment, listAppointment, cancelAppointment }
