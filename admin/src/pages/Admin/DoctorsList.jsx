@@ -17,13 +17,13 @@ const DoctorsList = () => {
       <div className='w-full flex flex-wrap gap-4 pt-5 gap-y-6'>
         {
           doctors.map((item, index) => (
-            <div className='border border-indigo-200 rounded-xl max-w-56 overflow-hidden cursor-pointer group ' key={index}>
-              <img className='bg-indigo-50 group-hover:bg-primary transition-all duration-500' src={item.image} alt="" />
+            <div className='border border-green-500 hover:translate-y-[-20px] transition-all duration-500 rounded-xl max-w-56 overflow-hidden cursor-pointer group ' key={index}>
+              <img className='bg-green-100 group-hover:bg-primary transition-all duration-500' src={item.image} alt="" />
               <div className='p-4'>
-                <p className='text-neutral-800 text-lg font-medium'>{item.name}</p>
-                <p className='text-zinc-600 text-sm'>{item.speciality}</p>
+                <p className='text-black text-lg font-medium '>{item.name}</p>
+                <p className='text-black text-sm'>{item.speciality}</p>
                 <div className='mt-2 flex items-center gap-1 text-sm'>
-                  <input onChange={()=>changeAvailability(item._id)} type="checkbox" checked={item.available} />
+                  <input onChange={() => changeAvailability(item._id)} type="checkbox" checked={item.available} />
                   <p>Available</p>
                 </div>
               </div>
