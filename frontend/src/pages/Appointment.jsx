@@ -156,7 +156,7 @@ const Appointment = () => {
         <div className='flex gap-3 items-center w-full overflow-x-scroll mt-4'>
           {
             docSlots.length && docSlots.map((item, index) => (
-              <div onClick={() => setSlotIndex(index)} className={`text-center py-2 min-w-16 hover:bg-primary rounded cursor-pointer ${slotIndex === index ? 'bg-primary text-black ' : 'border-2 border-green-100'} `} key={index}>
+              <div onClick={() => setSlotIndex(index)} className={`border-2 border-primary text-center py-2 min-w-16 hover:bg-green-300 rounded cursor-pointer ${slotIndex === index ? 'border-primary bg-green-300 text-black ' : 'text-black '} `} key={index}>
                 <p>{item[0] && daysOfWeek[item[0].datetime.getDay()]}</p>
                 <p>{item[0] && item[0].datetime.getDate()}</p>
               </div>
@@ -166,13 +166,13 @@ const Appointment = () => {
         <div className='flex items-center gap-3 w-full overflow-x-scroll mt-4'>
           {
             docSlots.length && docSlots[slotIndex].map((item, index) => (
-              <p onClick={() => setSlotTime(item.time)} className={`text-sm font-medium hover:bg-primary flex-shrink-0 px-5 py-2 rounded cursor-pointer ${item.time === slotTime ? 'bg-primary text-black' : 'text-gray-400 border border-gray-300'} `} key={index}>
+              <p onClick={() => setSlotTime(item.time)} className={`text-sm font-medium border-primary hover:bg-green-300 flex-shrink-0 px-5 py-2 rounded cursor-pointer ${item.time === slotTime ? 'border-primary bg-green-300 text-black' : 'text-black border border-gray-300'} `} key={index}>
                 {item.time.toLowerCase()}
               </p>
             ))
           }
         </div>
-        <button onClick={bookAppointment} className='bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6'>Book an Appointment</button>
+        <button onClick={bookAppointment} className='bg-green-300 border border-primary hover:scale-105 transition-all duration-300 text-black text-sm font-medium px-14 py-3 rounded-full my-6'>Book an Appointment</button>
       </div>
       {/* listing related doctors  */}
       <RelatedDoctors docId={docId} speciality={docInfo.speciality} />

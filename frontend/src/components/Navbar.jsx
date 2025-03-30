@@ -23,19 +23,19 @@ const Navbar = () => {
             <h1 onClick={() => navigate('/')} className='text-lg flex items-center text-green-700'>QuickDoc</h1>
             <ul className='hidden md:flex items-start gap-9 font-medium'>
                 <NavLink to='/'>
-                    <li className='py-1 hover:text-primary hover:scale-110 hover:transition-all duration-300'>HOME</li>
+                    <li className='py-1 hover:text-green-700 hover:scale-110 hover:transition-all duration-300'>HOME</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-5/5 m-auto hidden ' />
                 </NavLink>
                 <NavLink to='/doctors'>
-                    <li className='py-1 hover:text-primary hover:scale-110 hover:transition-all duration-300'>ALL DOCTORS</li>
+                    <li className='py-1 hover:text-green-700 hover:scale-110 hover:transition-all duration-300'>ALL DOCTORS</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-5/5 m-auto hidden' />
                 </NavLink>
                 <NavLink to='/about'>
-                    <li className='py-1 hover:text-primary hover:scale-110 hover:transition-all duration-300'>ABOUT</li>
+                    <li className='py-1 hover:text-green-700 hover:scale-110 hover:transition-all duration-300'>ABOUT</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-5/5 m-auto hidden' />
                 </NavLink>
                 <NavLink to='/contact'>
-                    <li className='py-1 hover:text-primary hover:scale-110 hover:transition-all duration-300'>CONTACT</li>
+                    <li className='py-1 hover:text-green-700 hover:scale-110 hover:transition-all duration-300'>CONTACT</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-5/5 m-auto hidden' />
                 </NavLink>
             </ul>
