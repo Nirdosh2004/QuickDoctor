@@ -12,7 +12,8 @@ const Footer = () => {
             <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
                 {/* Left Section  */}
                 <div  >
-                    <img className='mb-5 w-40' src={assets.logo} alt="" />
+                    {/* <img className='mb-5 w-40' src={assets.logo} alt="" /> */}
+                    <h1 className='font-medium text-2xl text-black mb-5'>Meet my Doctor</h1>
                     <p className='w-full md:w-2/3 text-gray-600 leading-6 font-medium'>QuickDoc connects you with 100+ trusted doctors across specialties. Book same-day appointments, compare reviews, and manage healthcare visits—all in one place. Fast, secure, and hassle-free.</p>
                 </div>
                 {/* center Section  */}
