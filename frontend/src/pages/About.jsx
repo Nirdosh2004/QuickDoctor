@@ -20,17 +20,17 @@ const About = () => {
         <p>WHY <span className='text-gray-700 font-semibold'>CHOOSE US</span> </p>
       </div>
       <div className='flex flex-col md:flex-row mb-20'>
-        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
+        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all rounded duration-300 text-gray-600 cursor-default'>
           <b>Efficiency:</b>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, porro?</p>
+          <p>Our approach is built on precision and optimization, ensuring every resource is used effectively to achieve outstanding outcomes.</p>
         </div>
-        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
+        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all rounded duration-300 text-gray-600 cursor-default'>
           <b>Convenience:</b>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorum placeat.</p>
+          <p>We simplify the complex—offering seamless solutions that fit effortlessly into your workflow, so you can focus on what matters most.</p>
         </div>
-        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer'>
+        <div className='border px-10 md:px-16 sm:py-16 flex flex-col gap-5 text-[15xl] hover:bg-primary hover:text-white transition-all rounded duration-300 text-gray-600 cursor-default'>
           <b>Personalization:</b>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nihil ratione ad id libero?</p>
+          <p>We don't believe in one-size-fits-all solutions. Our approach adapts to your unique needs, delivering customized results that hit the mark every time.</p>
         </div>
       </div>
     </div>
