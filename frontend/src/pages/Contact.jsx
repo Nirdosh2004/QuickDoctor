@@ -14,7 +14,7 @@ const Contact = () => {
           <p className='text-gray-500 font-medium'>Nirala Estate <br />
             Gautam Buddha Nagar, Greater Noida <br />
             Uttar Pradesh, India - 201310</p>
-          <p className='text-gray-500 font-medium'> 7704901719 <br /> nirdoshkushwaha75@gmail.com</p>
+          <p className='text-gray-500 font-medium'> 7704901719 <br /> pandey.div1529@gmail.com</p>
           <p className='font-bold text-lg text-gray-600'>Carrers at QuickDoc</p>
           <p className='text-gray-500 font-medium'>Join our mission to transform healthcare accessibility! We're always looking for passionate individuals in tech, customer support, and medical partnerships. Send your resume to the email above with the subject line.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-green-700 rounded hover:text-white transition-all duration-500'>Explore Jobs</button>
